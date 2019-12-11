@@ -1,0 +1,24 @@
+
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": { 
+        "ja": "音楽ファイルがプレイヤーになる",
+        "en": "music player plugin"
+    },
+    "description": { 
+        "ja": "これは音楽ファイルがプレイヤーになるプラグインです。",
+        "en": "This is music player plugin."
+    },
+    "icon": "image/icon.png",
+    "homepage_url": { 
+        "ja": "https://twitter.com/juri_onigiri/"
+    },
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/3.4.1/jquery.min.js",
+            "js/mplayer.js"
+        ]
+    }
+}
